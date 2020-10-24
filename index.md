@@ -1,35 +1,11 @@
+Site under development
+
 ## Wiktor Wójcik
 
-I'm an beginner developer creating apps. You can check what I've created here, on my [GitHub](https://github.com/wiktorwojcik112) and [Twitter profile](https://twitter.com/WiktorW2). 
+I'm an beginner developer creating apps who creates apps mostly in Xcode and Creolabs. You can check what I've created here, on my [GitHub](https://github.com/wiktorwojcik112) and [Twitter profile](https://twitter.com/WiktorW2). 
 
-### What I'm programming exactly?
+Here you can find some of my apps. I hope you will like them.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wiktorwojcik112/wiktorwojcik112.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Macflix
+## Unit
+### Timer
