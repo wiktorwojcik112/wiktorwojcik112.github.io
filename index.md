@@ -1,8 +1,8 @@
 ## Wiktor Wójcik
 
-I'm an beginner developer creating apps for iOS and macOS. You can check what I've created here and on my GitHub and Twitter profile. 
+I'm an beginner developer creating apps. You can check what I've created here, on my [GitHub](https://github.com/wiktorwojcik112) and [Twitter profile](https://twitter.com/WiktorW2). 
 
-### Markdown
+### What I'm programming exactly?
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
