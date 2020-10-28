@@ -11,5 +11,6 @@ Here you can find some of my apps. I hope you will like them.
 ### Timer
 ![Timer](Timer.png)
 **Timer** is a simple timer that you can acces from dock.
+<INPUT TYPE="button" VALUE="Download Timer Beta 1" onClick="self.location.href=('http://github.com/wiktorwojcik112/Timer/releases/download/beta/Timer.dmg')">
 
 More apps coming soon
