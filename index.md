@@ -5,12 +5,20 @@ Here you can find some of my apps. I hope you will like them.
 ### Macflix
 ![Macflix](Macflix.png)
 **Macflix** is a simple app that let's you run Netflix without browser. It allows you to simply search Netflix, choose movie categorie and change users.
+
 ### Unit
 ![Unit](Unit.png)
 **Unit** is an app that let's you quickly convert units. Currently only length units are available, but I'm working on more.
+
+<INPUT TYPE="button" VALUE="Download Unit Beta 2" onClick="self.location.href=('https://github.com/wiktorwojcik112/Unit/releases/download/beta/Unit.app.zip')">
+Supported launguages: polish, english (soon)
+  
 ### Timer
 ![Timer](Timer.png)
 **Timer** is a simple timer that you can acces from dock.
-<INPUT TYPE="button" VALUE="Download Timer Beta 1" onClick="self.location.href=('http://github.com/wiktorwojcik112/Timer/releases/download/beta/Timer.dmg')">
-
-More apps coming soon
+  
+<INPUT TYPE="button" VALUE="Download Timer Beta 1" onClick="self.location.href=('https://github.com/wiktorwojcik112/Timer/releases/download/beta/Timer.dmg')">
+  Supported launguages: polish, english (soon)
+  
+  
+_More apps coming soon_
