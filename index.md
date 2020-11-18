@@ -20,9 +20,9 @@ Supported launguages: polish, english (soon)
 <INPUT TYPE="button" VALUE="Download Timer Beta 1" onClick="self.location.href=('https://github.com/wiktorwojcik112/Timer/releases/download/beta/Timer.dmg')">
   Supported launguages: polish, english (soon)
   
-  ### Harmony Browser
-  ![Harmony](Harmony.png)
-  **Harmony Browser** is a gorgeous browser for your macOS and iOS devices. It has fresh UI, CPU limiter (so it will not take much of your RAM; coming soon), and is going to have more features soon.
+### Harmony Browser
+![Harmony](Harmony.png)
+**Harmony Browser** is a gorgeous browser for your macOS and iOS devices. It has fresh UI, CPU limiter (so it will not take much of your RAM; coming soon), and is going to have more features soon.
   
   <INPUT TYPE="button" VALUE="Download Harmony Browser for macOS" onClick="self.location.href=('https://github.com/wiktorwojcik112/HarmonyBrowser/releases/download/macOS/Harmony.app.zip')">
   Supported launguages: polish, english
