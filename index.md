@@ -17,7 +17,7 @@ Supported launguages: polish, english (soon)
 ![Clock](Clock.png)
 **Clock** is a simple clock app that you can acces from dock. It has stopwatch and timer modes.
   
-<INPUT TYPE="button" VALUE="Download Clock Beta 2" onClick="self.location.href=('https://github.com/wiktorwojcik112/Clock/releases/download/Beta2/Clock.app.zip')">
+<INPUT TYPE="button" VALUE="Download Clock Beta 2" onClick="self.location.href=('https://github.com/wiktorwojcik112/Clock/releases/download/Beta3/Clock.app.zip')">
   Supported launguages: polish, english
   
 ### Harmony Browser
