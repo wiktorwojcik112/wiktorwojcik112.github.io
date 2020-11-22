@@ -13,12 +13,12 @@ Here you can find some of my apps. I hope you will like them.
 <INPUT TYPE="button" VALUE="Download Unit Beta 2" onClick="self.location.href=('https://github.com/wiktorwojcik112/Unit/releases/download/beta/Unit.app.zip')">
 Supported launguages: polish, english (soon)
   
-### Timer
-![Timer](Timer.png)
-**Timer** is a simple timer that you can acces from dock.
+### Clock
+![Clock](Clock.png)
+**Clock** is a simple clock app that you can acces from dock. It has stopwatch and timer modes.
   
-<INPUT TYPE="button" VALUE="Download Timer Beta 1" onClick="self.location.href=('https://github.com/wiktorwojcik112/Timer/releases/download/beta/Timer.dmg')">
-  Supported launguages: polish, english (soon)
+<INPUT TYPE="button" VALUE="Download Clock Beta 2" onClick="self.location.href=('https://github.com/wiktorwojcik112/Clock/releases/download/Beta2/Clock.app.zip')">
+  Supported launguages: polish, english
   
 ### Harmony Browser
 ![Harmony](Harmony.png)
