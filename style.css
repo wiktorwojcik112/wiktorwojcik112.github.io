@@ -100,4 +100,5 @@ body {
 .right-item {
 	float: right;
 	width: 86%;
+	text-align: left;
 }
