@@ -93,12 +93,12 @@ body {
 
 .left-item {
 	float: left;
-	width: 10%;
+	width: 50%;
 	text-align: right;
 }
 
 .right-item {
 	float: right;
-	width: 86%;
+	width: 50%;
 	text-align: left;
 }
