@@ -1,0 +1,189 @@
+.menuTitle {
+	float: left;
+	width: 20%;
+	text-align: left;
+}
+
+.menuButtons {
+	float: right;
+	width: 75%;
+	text-align: right;
+}
+
+.download {
+	background: #037BFF;
+	border-radius: 50px;
+	border: none;
+	color: white;
+	height: 25px;
+	font-weight: bold;
+}
+
+.beta {
+	background: #E4B34C;
+	border-radius: 50px;
+	border: none;
+	color: white;
+	height: 18px;
+	width: 50px;
+	font-weight: bold;
+}
+
+.more {
+	background: lightgray;
+	border-radius: 50px;
+	border: none;
+	height: 25px;
+	font-weight: bold;
+}
+
+.clear {
+	background: lightgray;
+	border: none;
+	height: 20px;
+}
+
+.centerNewsletter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 50px;
+	background: black;
+	color: white;
+	width: 500px;
+	height: 140px;
+}
+
+.textfield {
+	background: white;
+	border-radius: 10px;
+	border-color: black;
+	border-width: 1px;
+	height: 25px;
+	width: 100x;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+body {
+	background: white;
+	font-family: "Helvetica", "Arial";
+}
+
+.block {
+	display: block;
+	height: 100px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centerProduct {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	color: black;
+	width: 500px;
+	height: 300px;
+}
+
+.left {
+	float: left;
+	width: 50%;
+	text-align: right;
+}
+
+.leftApps {
+	float: left;
+	width: 48%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	height: 289px
+}
+
+.rightApps {
+	float: right;
+	width: 48%;
+	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	height: 289px
+}
+.centerApps {
+	width: 48%;
+	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	height: 289px
+}
+
+.right {
+	float: right;
+	width: 50%;
+}
+
+.left-item {
+	float: left;
+	width: 49%;
+	text-align: right;
+}
+
+.right-item {
+	float: right;
+	width: 49%;
+	text-align: left
+}
+
+.menuButton {
+	background-color: white;
+	color: black;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+.dropButton {
+	background-color: white;
+	color: black;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdownContent {
+	display: none;
+	position: absolute;
+	min-width: 110px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	background-color: white;
+}
+
+.dropdownContent a {
+	color: black;
+	padding: 10px 10px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+.dropdownContent a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdownContent {display: block;}
+
+.dropdown:hover .dropButton {color: #037BFF;}
+
+.menuButton:hover {color: #037BFF;}
