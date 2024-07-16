@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>wiktor@www</title>
+    <meta charset="UTF-8">
+    <style>
+      html {
+        background-color: black;
+        color: white;
+        font-family: "Monaco", monospace;
+      }
+
+      body {
+        padding: 10px;
+      }
+
+      p {
+        font-size: 0.8em;
+      }
+
+      .promptHostname {
+        display: inline;
+        color: greenyellow;
+      }
+
+      .promptLocation {
+        display: inline;
+        color: cyan;
+      }
+
+      .promptInput {
+        display: inline;
+        text-decoration: none;
+        background-color: black;
+        border: 0;
+        font-family: "Monaco", monospace;
+        color: white;
+        width: 80vw;
+      }
+
+      input:focus,
+      select:focus,
+      textarea:focus,
+      button:focus {
+        outline: none;
+      }
+
+      .terminalContainer {
+        border-style: solid; 
+        border-color: lightgray;
+      }
+
+      .terminal {
+        overflow-y: scroll;
+        height: 81.5vh;
+        width: 100%;
+        padding: 5px;
+      }
+
+      a {
+        color: cyan;
+      }
+      
+      .powerline {
+        position: fixed;
+        top: calc(100vh - 35px); /* probably a bad practice, don't do that */
+        width: 97.9%;
+        height: 20px;
+        background-color: greenyellow;
+        color: black;
+        font-size: 0.9em;
+      }
+
+      .powerlineContent {
+        position: relative;
+        top: -1px;
+      }
+
+      .highlighted {
+        display: inline;
+        position: relative;
+        left: 20px;
+        color: orangered;
+      }
+
+      .promptInputHistory {
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <pre>
+██╗    ██╗██╗██╗  ██╗████████╗ ██████╗ ██████╗     ██╗    ██╗ ██████╗      ██╗ ██████╗██╗██╗  ██╗
+██║    ██║██║██║ ██╔╝╚══██╔══╝██╔═══██╗██╔══██╗    ██║    ██║██╔═══██╗     ██║██╔════╝██║██║ ██╔╝
+██║ █╗ ██║██║█████╔╝    ██║   ██║   ██║██████╔╝    ██║ █╗ ██║██║   ██║     ██║██║     ██║█████╔╝ 
+██║███╗██║██║██╔═██╗    ██║   ██║   ██║██╔══██╗    ██║███╗██║██║   ██║██   ██║██║     ██║██╔═██╗ 
+╚███╔███╔╝██║██║  ██╗   ██║   ╚██████╔╝██║  ██║    ╚███╔███╔╝╚██████╔╝╚█████╔╝╚██████╗██║██║  ██╗
+ ╚══╝╚══╝ ╚═╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝     ╚══╝╚══╝  ╚═════╝  ╚════╝  ╚═════╝╚═╝╚═╝  ╚═╝                                                                                   
+      </pre>
+
+      <br>
+      
+      <div class="terminalContainer">
+        <div class="terminal" id="terminal">
+          <div id="terminalOutput">
+          <div>
+            <p><p class="promptHostname">wiktor@www</p>:<p class="promptLocation">~</p>$<p class="promptInputHistory">about me</p></p>
+              <p>Hi! I mainly develop apps for macOS, but I love doing and learning about everything that is related to computers.</p>
+          </div>
+  
+          <div>
+            <p><p class="promptHostname">wiktor@www</p>:<p class="promptLocation">~</p><p class="promptInputHistory">$ cat interests.txt</p></p>
+              <div id="get_interests">
+                <p>[0] Programming (in progress)</p>
+                <p>[1] Computer architecture (in progress)</p>
+                <p>[2] Machine learning (in progress)</p>
+                <p>[3] Cybersecurity (in progress)</p>
+                <p>[4] Chess (in progress)</p>
+                <p>[5] Physics (in progress)</p>
+              </div>
+          </div>
+    
+         <div>
+          <p><p class="promptHostname">wiktor@wwww</p>:<p class="promptLocation">~</p><p class="promptInputHistory">$ cat projects.txt</p></p>
+            <div id="get_projects">
+              <p>[0] <a href="https://extiri.com/index.html">Extiri</a> - my solo "company" for projects that aren't experimental</p>
+              <p style="display: inline;">[1] <a href="https://extiri.com/codemenu.html">CodeMenu</a> - macOS snippets manager <p class="highlighted"><------- my biggest project</p></p>
+              <p>[2] <a href="https://github.com/Extiri/Suggestions">Suggestions</a> - access snippets in external editor, open source</p>
+              <p>[3] <a href="https://github.com/Extiri/natsearch">natsearch</a> - macOS CLI tool for searching tghrough files using natural language (supports code), open source</p>
+              <p>[4] <a href="https://github.com/wiktorwojcik112/hier">Hier</a> - my Lisp-like programming language in the making</p>
+              <p>[5] <a href="https://github.com/wiktorwojcik112/PlatiniumOS">PlatiniumOS</a> - my operating system built in Rust based on phil-opp's tutorial and extended</p>
+              <p>[6] <a href="">Snippets Store</a> - open source online database of snippets (<a href="https://github.com/Extiri/ExtiriServer">ExtiriServer</a> - server, <a href="https://github.com/Extiri/extiri-web">extiri-web</a> - web app) (<a href="https://web.extiri.com">Extiri instance</a>)</p>
+            </div>
+         </div>
+    
+         <div>
+          <p><p class="promptHostname">wiktor@www</p>:<p class="promptLocation">~</p><p class="promptInputHistory">$ cat socials.txt</p></p>
+            <div id="get_socials">
+              <p>[0] <a href="https://x.com/WiktorW2">WiktorW2 - X/Twitter</a></p>
+              <p>[1] <a href="https://www.linkedin.com/in/wiktor-w%C3%B3jcik-716188317/">Wiktor Wójcik - LinkedIn</a></p>
+              <p>[2] <a href="https://github.com/wiktorwojcik112">wiktorwojcik112 - GitHub</a></p>
+            </div>
+         </div>
+          </div>
+    
+         <div><p class="promptHostname">wiktor@www</p>:<p class="promptLocation">~</p><p class="promptInputHistory">$</p> <input id="promptInput" type="text" class="promptInput" autofocus></div>
+        </div>
+      </div>
+
+      <div class="powerline">
+        <div class="powerlineContent">
+          <p style="display: inline;">[1] 0:wwwshell*</p> <p style="display: inline; padding-left: 79vw">"www.local" <p style="display: inline;" id="time">00:00 01-jan-1970</p></p>
+        </div>
+      </div>
+
+      <script>
+        let input = document.getElementById('promptInput')
+        input.focus()
+
+        function addOutput(input, output) {
+          let terminalOutput = document.getElementById('terminalOutput')
+          terminalOutput.innerHTML += '<p><p class="promptHostname">wiktor@www</p>:<p class="promptLocation">~</p><p class="promptInputHistory">$ ' + input + '</p></p>\n<p>' + output + '</p>'; // That's not exploitable.
+          document.getElementById('terminal').scrollBy(0, 300)
+        }
+
+        function execute() {
+          var input = document.getElementById('promptInput')
+
+          if (input.value == '') { return }
+
+          const value = input.value;
+          const arguments = input.value.split(' ')
+          const command = arguments.shift()
+          input.value = ''
+
+          var terminalOutput = document.getElementById('terminalOutput')
+
+          if (command == 'cat') {
+            if (arguments.length == 1 && arguments[0] == 'socials.txt') {
+              const socialsDiv = document.getElementById('get_socials')
+              addOutput(value, socialsDiv.innerHTML)
+            } else if (arguments.length == 1 && arguments[0] == 'projects.txt') {
+              const projectsDiv = document.getElementById('get_projects')
+              addOutput(value, projectsDiv.innerHTML)
+            } else if (arguments.length == 1 && arguments[0] == 'interests.txt') {
+              const interestsDiv = document.getElementById('get_interests')
+              addOutput(value, interestsDiv.innerHTML)
+            } else if (arguments.length >= 1) {
+              let result = ""
+              for (var i = 0; i < arguments.length; i++) {
+                result += '<pre>cat: ' + arguments[i] + ': No such file or directory</pre>'
+              }
+              addOutput(value, result)
+            } else {
+              addOutput(value, 'That\'s not implemented :(')
+            }
+          } else if (command == 'help') {
+            addOutput(value, 'Available commands are: help, cat, about, ls, clear')
+          } else if (command == 'clear') {
+            let terminalOutput = document.getElementById('terminalOutput')
+            terminalOutput.innerHTML = ''
+          } else if (command == 'ls') {
+            if (arguments.length == 0) {
+              addOutput(value, '<pre>socials.txt       projects.txt       interests.txt</pre>')
+            } else if (arguments.length == 1 && arguments[0] == '-a') {
+              addOutput(value, '<pre>socials.txt       projects.txt       interests.txt       .pepa-kotlin       .cm-cs</pre>')
+            } else {
+              addOutput(value, 'Invalid arguments. Available options are: -a')
+            }
+          } else if (command == 'about') {
+            if (arguments.length == 1 && arguments[0] == 'me') {
+              addOutput(value, 'Hi! I mainly develop apps for macOS, but I love doing and learning about everything that is related to computers.')
+            } else if (arguments.length == 1 && arguments[0] == 'this') {
+              addOutput(value, 'Well, as you see, this is my personal website made to look like CLI. Look is inspired by bash and tmux.')
+            } else if (arguments.length == 1 && arguments[0] == 'you') {
+
+
+
+
+              addOutput(value, 'Data coơ̡͎͕̰͎̘̪̬̮͎͓̙̦͚̻̦ͫ̿͌ͧ̈̏͐ͫ̾̒̚̕̚̚͢r̶̷̛̟̗̜͇̽́ͫͫ̆͂ͦ͆̈̇͒͒̇̉̽̉̕͜͡ͅ_̮̹̮͔ͥ͗͐̽̾̈̏͒̄ͬr̡͙̣̃͌͐̈́͢u̴̶̠͇̰̩ͨ̉͗ͬͤ̇̇̽͌ͪ_̱͎̝̻̭̥̬̜̱̌̉̓ͯ͑͒ͫ̾͊ͫ̿ͦͫ͛͢͝ͅp̴͚̠͈̰̮̞̱̮͉̉͋ͦͮͩͦ̍͊̅̀̄̂͑̊͑ͪ͡t̶̶̶͇̙̳̭̘̥͓ͨ͛ͨ̿̆́̓̿͊ͣ́̌̃̂͂͒͗͜͝͝e̷̡͚̞̰̻̮̹̬̯͔͇͚̮̟͔̫͒̄̃̀̈̅̋ͬͧͅd̬̹̞ Ŕ̴̨͕͚̻͍͇̱͓̫̗̰̳͙͎̭̰̯͈̄͗͑ͨ̀̓͐ͮ̋̄̈͒ͣ̉͂̓͂ͪ̈̇̒ͬ͒̑̚͟͠e̟̠ͥͪ̓̋̉̾̈̒̚t̶̷̸̢͎̟͔̫̱̱̫̙͇̓ͬ͊̉̓́̀ͣ̊ͭ̅̓̃ͬ̚ͅr͉͕i̴̞̱̜̞̠̮͔̒͊͑ͥ̀̊͌͊͠͞e̴̶̸̡̡̛͓̜̗̱̞̪͇͙̯̞̻͚͖̯͖͆̇̈́̎ͫ̾̇̉̾͜͜͜͟͡͝ͅv̴̮̝̤̦̱̀ͯ͌ͧ́ả̵̢̢̨̤̟̙̬͔̤̻̼͓̟̲̬͙̌̊̐̄̂͐ͦ͆̄̿̋ͫ͛ͭͮ͐͗ͦ̒͝ͅl̴̗͛ f͍ͣ̿ai͓_̸̸̷͚̹̩̤̝̃ͧͥͯ̎̽̌̅ͥ͗͜͝ḽ̶̨̢̥̀̿̊̅͑͐ͨ͞e̴͇̘̝̯͙̮̣͇̻̎ͣ̓ͨ͌͒ͣ͐̐̂̂̈ͬ͗̚͠͝͝͝ͅd̶̹ͦ̑_̪͆')
+
+
+
+            } else {
+              addOutput(value, 'Invalid arguments. Available arguments: me, you, this')
+            }
+          } else {
+            addOutput(value, 'Uknown command: ' + command + '. Type help for available commands.')
+          }
+        }
+
+        input.addEventListener("keydown", function (e) {
+          if (e.code === "Enter") {
+            execute()
+          }
+        })
+
+        function updateTime() {
+          const today = new Date();
+
+          const hours = today.getHours();
+          const minutes = today.getMinutes();
+
+          const hour = hours < 10 ? "0" + hours : hours;
+          const minute = minutes < 10 ? "0" + minutes : minutes;
+
+          const month = today.getMonth();
+          const year = today.getFullYear();
+          const day = today.getDate();
+
+          const monthList = [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+          ];
+
+          // 00:00 01-jan-1970
+          const date =  day + "-" + monthList[month] + '-' + year;
+          const time = hour + ":" + minute;
+
+          const dateTime = time + " " + date;
+
+          document.getElementById("time").innerHTML = dateTime;
+          setTimeout(updateTime, 1000);
+        }
+
+        updateTime()
+      </script>
+  </body>
+</html>
